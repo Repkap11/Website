@@ -2,6 +2,10 @@ html, body {
 	height: 100%;
 }
 
+html {
+	overflow-y: scroll;
+}
+
 body {
 	margin: 0px;
 	padding: 0px;
@@ -11,7 +15,6 @@ body {
 	font-weight: 300;
 	color: #656565;
 }
-
 
 .wrapper {
 	background: #FFF;
