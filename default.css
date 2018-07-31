@@ -6,29 +6,24 @@ html {
 	overflow-y: scroll;
 }
 
-@media (min-width: 1281px) {
-	body {
-		padding-left: 300px;
-		padding-right: 300px;
-	}
-}
-
-@media (max-width: 1280px) {
-	body {
-		padding-left: 50px;
-		padding-right: 50px;
-	}
-}
-
 body {
 	margin: 0px;
-	padding-top: 10px;
-	padding-bottom: 10px;
 	background: #333333;
 	font-family: 'Varela', sans-serif;
 	font-size: 11pt;
 	font-weight: 300;
 	color: #656565;
+}
+
+.wrapper {
+	max-width: 1100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 50px;
+	padding-right: 50px;
+	position: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .header-bar {
@@ -38,24 +33,26 @@ body {
 
 .header-content {
 	overflow: hidden;
-	margin: 0em auto;
+	margin: 0em;
 	position: relative;
 	padding: 3em 0em;
 }
 
 .header-name {
 	position: absolute;
-	top: 0em;
-	left: 0;
+	top: 1em;
 }
 
-.header-name h1 {
+.header-name {
 	color: #FFF;
 }
 
 .header-name a {
 	text-decoration: none;
+	font-size: 30pt;
+	font-weight: bold;
 	color: #FFF;
+	vertical-align: middle;
 }
 
 .navigation-menu {
@@ -86,7 +83,7 @@ body {
 
 .content {
 	overflow: hidden;
-	padding: 2em 5em 4em 5em;
+	padding: 2em 4em 4em 4em;
 	background: #FFF;
 }
 
@@ -107,8 +104,11 @@ body {
 }
 
 .content .box {
-	padding: 2em 2em 2em 2em;
-	margin: 1em;
+	padding-top: 1.5em;
+	padding-right: 2em;
+	padding-bottom: 2em;
+	padding-left: 2em;
+	margin: 0em 0em 1em 0em;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	border-radius: 8px;
 	text-align: center;
@@ -123,8 +123,7 @@ body {
 
 .copyright {
 	overflow: hidden;
-	padding: 5em 0em;
-	border-top: 1px solid rgba(255, 255, 255, 0.08);
+	padding: 3em 0em;
 }
 
 .copyright p {
