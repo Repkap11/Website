@@ -23,16 +23,12 @@ html {
 body {
 	margin: 0px;
 	padding-top: 10px;
-	padding-bottom; 10px;
+	padding-bottom: 10px;
 	background: #333333;
 	font-family: 'Varela', sans-serif;
 	font-size: 11pt;
 	font-weight: 300;
 	color: #656565;
-}
-
-.wrapper {
-	background: #FFF;
 }
 
 .header-bar {
@@ -88,15 +84,16 @@ body {
 	color: #FFF;
 }
 
-
 .content {
 	overflow: hidden;
 	padding: 2em 5em 4em 5em;
+	background: #FFF;
 }
 
 .content .title {
 	text-align: left;
 }
+
 .content .subtitle {
 	font-size: 1.5em;
 	margin: 0em 0em 0.5em 0em;
@@ -108,10 +105,11 @@ body {
 	text-align: left;
 	font-size: 1.2em;
 }
+
 .content .box {
 	padding: 2em 2em 2em 2em;
 	margin: 1em;
-	border: 1px solid rgba(0,0,0,0.1);
+	border: 1px solid rgba(0, 0, 0, 0.1);
 	border-radius: 8px;
 	text-align: center;
 }
@@ -123,25 +121,19 @@ body {
 	font-size: 3em;
 }
 
-.copyright
-{
+.copyright {
 	overflow: hidden;
 	padding: 5em 0em;
-	border-top: 1px solid rgba(255,255,255,0.08);
+	border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-.copyright p
-{
+.copyright p {
 	text-align: center;
 	font-size: 1em;
-	color: rgba(255,255,255,0.5);
+	color: rgba(255, 255, 255, 0.5);
 }
 
-.copyright a
-{
+.copyright a {
 	text-decoration: none;
-	color: rgba(255,255,255,0.8);
+	color: rgba(255, 255, 255, 0.8);
 }
-
-
-
