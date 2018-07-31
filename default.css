@@ -6,9 +6,24 @@ html {
 	overflow-y: scroll;
 }
 
+@media (min-width: 1281px) {
+	body {
+		padding-left: 300px;
+		padding-right: 300px;
+	}
+}
+
+@media (max-width: 1280px) {
+	body {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+}
+
 body {
 	margin: 0px;
-	padding: 0px;
+	padding-top: 10px;
+	padding-bottom; 10px;
 	background: #333333;
 	font-family: 'Varela', sans-serif;
 	font-size: 11pt;
@@ -21,13 +36,13 @@ body {
 }
 
 .header-bar {
+	position: center;
 	background: #333333;
 }
 
 .header-content {
 	overflow: hidden;
 	margin: 0em auto;
-	width: 1000px;
 	position: relative;
 	padding: 3em 0em;
 }
@@ -76,7 +91,7 @@ body {
 
 .content {
 	overflow: hidden;
-	padding: 2em 10em 4em 10em;
+	padding: 2em 5em 4em 5em;
 }
 
 .content .title {
