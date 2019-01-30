@@ -41,7 +41,7 @@
 				<h1>Hi, I'm Paul Repka!</h1>
 			</div>
 			<div class="text">
-				<p>I'm a 25 year old Computer Engineer working as a Software Engineer. I graduated from RIT in 2015 receiving my bachelors
+				<p>I'm a <span id="age"></span> year old Computer Engineer working as a Software Engineer. I graduated from RIT in 2015 receiving my bachelors
 					degree in Computer Engineering. I enjoy programming, especially Android applications. I also have experience in C# .NET,
 					basic HTML and Javascript, C (including Linux Kernel drivers) as well as other languages.</p>
 				<p>Currently I am a Software Engineer at
@@ -56,5 +56,14 @@
 			<a href="http://www.freecsstemplates.org/" rel="nofollow">FreeCSSTemplates.org</a>.</p>
 	</div>
 </body>
+</html>
+<script>
+function calculate_age(dob) {
+    var diff_ms = Date.now() - dob.getTime();
+    var age_dt = new Date(diff_ms);
+    return Math.abs(age_dt.getUTCFullYear() - 1970);
+}
+document.getElementById("age").innerHTML = calculate_age(new Date(1993, 8-1, 3))
+</script>
 
 </html>
