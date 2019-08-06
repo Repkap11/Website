@@ -18,6 +18,7 @@ services:
       - /home/paul/website/repkalinux.deb:/home/paul/website/repkalinux.deb
       - /home/paul/website/rep2phone:/home/paul/website/rep2phone
       - /home/paul/website/burger:/home/paul/website/burger
+      - /home/paul/website/repcastaudio:/home/paul/website/repcastaudio
       - /home/paul/website/repgame:/home/paul/website/repgame
       - /home/paul/website/repcube:/home/paul/website/repcube
     command: "/bin/sh -c 'while true; do sleep 6h & wait $${!}; nginx -s reload; done & nginx -g \"daemon off;\"'"
