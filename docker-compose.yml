@@ -2,10 +2,7 @@ services:
   nginx:
     image: nginx
     restart: always
-    ports:
-      - "80:80" #HTTP
-      - "443:443" #HTTPS
-      - "8080:8080" #Test
+    network_mode: "host"
     volumes:
       - ./data/nginx:/etc/nginx/conf.d
       - ./data/certbot/conf:/etc/letsencrypt
