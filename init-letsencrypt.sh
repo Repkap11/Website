@@ -5,7 +5,7 @@ if ! [ -x "$(command -v docker)" ]; then
   exit 1
 fi
 
-domains=(repkap11.com www.repkap11.com)
+domains=(repkap11.com www.repkap11.com nas.repkap11.com)
 rsa_key_size=4096
 data_path="./data/certbot"
 email="repkap11@gmail.com" # Adding a valid address is strongly recommended
