@@ -16,5 +16,10 @@ cert-logs:
 logs-clear:
 	sudo sh -c 'truncate -s 0 /var/lib/docker/containers/*/*-json.log'
 
+reload:
+	docker exec -it website-nginx-1 nginx -t
+	docker exec -it website-nginx-1 nginx -s reload
+
+
 test:
 	google-chrome ~/Software/website/data/website/index.html &

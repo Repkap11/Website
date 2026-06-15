@@ -5,7 +5,7 @@ services:
     ports:
       - "80:80" #HTTP
       - "443:443" #HTTPS
-      - "8443:8443" #HTTPS
+      - "8080:8080" #Test
     volumes:
       - ./data/nginx:/etc/nginx/conf.d
       - ./data/certbot/conf:/etc/letsencrypt
