@@ -1,17 +1,20 @@
 up:
-	docker-compose up -d
+	docker compose up -d
 
 down:
-	docker-compose down
+	docker compose down
 
 list:
-	docker-compose ps
+	docker compose ps
 
 logs:
-	docker logs website_nginx_1
-	@echo
-	@echo
-	docker logs website_certbot_1
+	docker logs website-nginx-1
+
+cert-logs:
+	docker logs website-certbot-1
+
+logs-clear:
+	sudo sh -c 'truncate -s 0 /var/lib/docker/containers/*/*-json.log'
 
 test:
 	google-chrome ~/Software/website/data/website/index.html &
