@@ -12,7 +12,7 @@ I have a <span id="felix_age"></span> year old cat named Felix. He's a good boy.
 
 <!-- ![Image alt](felix.jpg) -->
 
-<img src="felix.jpg" alt="AltText" class="mx-auto my-0 rounded-md" style="max-width: 400px; display: block; margin-left: auto; margin-right: auto;">
+<img src="felix.jpg" alt="AltText" class="mx-auto my-0 rounded-md" style="max-width: min(100%,400px) ; display: block; margin-left: auto; margin-right: auto;">
 
 I graduated from RIT in 2015 with a bachelors degree in Computer Engineering.
 
