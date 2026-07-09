@@ -14,8 +14,8 @@ title = "Paul Repka"
 
 [params.author]
   name = "Paul Repka"
-  image = "img/author.jpg"
-  headline = "Thats me!"
+  # image = "img/author.jpg"
+  # headline = "Thats me!"
   # bio = "A little bit about you"
   links = [
     # { email = "mailto:repkap11@gmail.com" },

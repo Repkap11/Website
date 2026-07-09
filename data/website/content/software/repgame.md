@@ -13,5 +13,4 @@ Features include: infinite terrain gen, frustum culling, back face culling, bloc
 On desktop class hardware, the non-WASM versions can run at above 500fps with reasonable render distances.
 Performance will drop in the WASM version, or if reflections are turned on.
 
-[Play and/or download](/repgame)
-or [check out the code on GitHub.](https://github.com/Repkap11/RepGame)
+[Play or download](/repgame) the game or [check out the code on GitHub.](https://github.com/Repkap11/RepGame)

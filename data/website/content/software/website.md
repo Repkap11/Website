@@ -11,4 +11,4 @@ The site is also used as SSL termination for various self hosted services on my 
 This allows normally insecure services on my LAN be secure and private.
 It also allows my services to have short and consistent URL's, while still supporting LAN routing when at home.
 
-Check out the code on GitHub here.
+[Check out the code on GitHub](https://github.com/Repkap11/Website).

@@ -4,7 +4,7 @@ draft: false
 title: "Hi, I'm Paul Repka"
 ---
 
-I'm from Rochester NY, and I'm <span id="paul_age"></span> years old.
+I'm <span id="paul_age"></span> years old and live in Rochester NY.
 
 I enjoy traveling, looking at space through my telescope, playing video games, and programming.
 
