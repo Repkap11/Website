@@ -2,7 +2,9 @@
 title = 'RepMake'
 weight = 5
 +++
-RepMake is a prototype build system which uses features in the Linux Kernel, like strace and eBPF, to auto-magically track build dependencies and run build tasks in the correct order.
+RepMake is a prototype build system which uses unique features in the Linux Kernel.
+
+Through the magic of strace and eBPF, the program can automatically track build dependencies and run build tasks in the correct order.
 
 It has 2 main features:
 

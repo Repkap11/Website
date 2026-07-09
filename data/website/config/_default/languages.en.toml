@@ -7,10 +7,10 @@ title = "Paul Repka"
 # copyright = "Copy, _right?_ :thinking_face:"
 
 [params]
-  dateFormat = "2 January 2006"
+  # dateFormat = "2 January 2006"
 
-  mainSections = ["section1", "section2"]
-  description = "Paul Repka's person website."
+  # mainSections = ["section1", "section2"]
+  # description = "Paul Repka's personal website."
 
 [params.author]
   name = "Paul Repka"
@@ -18,7 +18,7 @@ title = "Paul Repka"
   headline = "Thats me!"
   # bio = "A little bit about you"
   links = [
-    { email = "mailto:repkap11@gmail.com" },
+    # { email = "mailto:repkap11@gmail.com" },
   #   { link = "https://link-to-some-website.com/" },
   #   { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
   #   { apple = "https://www.apple.com" },

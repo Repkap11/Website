@@ -20,9 +20,9 @@ enableImageWebp = true
 fingerprintAlgorithm = "sha256"
 
 [header]
-  layout = "basic" # valid options: basic, hamburger, hybrid, custom
-  # logo = "img/logo.jpg"
-  # logoDark = "img/dark-logo.jpg"
+  layout = "hybrid" # valid options: basic, hamburger, hybrid, custom
+  logo = "img/author.jpg"
+  logoDark = "img/author.jpg"
   showTitle = true
 
 [footer]
@@ -40,7 +40,7 @@ fingerprintAlgorithm = "sha256"
   showDate = false
   showDateUpdated = false
   showAuthor = false
-  showBreadcrumbs = false
+  showBreadcrumbs = true
   showDraftLabel = false
   showEdit = false
   # editURL = "https://github.com/username/repo/"

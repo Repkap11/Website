@@ -4,15 +4,13 @@ draft: false
 title: "Hi, I'm Paul Repka"
 ---
 
-I'm from Rochester NY and am <span id="paul_age"></span> years old.
+I'm from Rochester NY, and I'm <span id="paul_age"></span> years old.
 
-In my free time I enjoy traveling, looking at space through my telescope, playing video games, and programming.
+I enjoy traveling, looking at space through my telescope, playing video games, and programming.
 
 I have a <span id="felix_age"></span> year old cat named Felix. He's a good boy.
 
-<!-- ![Image alt](felix.jpg) -->
-
-<img src="felix.jpg" alt="AltText" class="mx-auto my-0 rounded-md" style="max-width: min(100%,400px) ; display: block; margin-left: auto; margin-right: auto;">
+<img src="felix.jpg" alt="Felix the Cat" width="2456" height="3072" class="mx-auto my-0 rounded-md" style="max-width: 400px; width: 100% ; display: block; margin-left: auto; margin-right: auto;">
 
 I graduated from RIT in 2015 with a bachelors degree in Computer Engineering.
 
