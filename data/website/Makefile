@@ -10,3 +10,4 @@ server:
 .PHONY: deploy
 deploy:
 	hugo --gc --cleanDestinationDir --minify
+	rsync -avz --delete public/ paul@repkap11.com:~/website/public
