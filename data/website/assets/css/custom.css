@@ -1,3 +1,26 @@
 html {
   font-size: 22px; /* Change this number to make text bigger or smaller */
 }
+
+/* Target active menu items in the navigation bar */
+.nav-link.active, 
+.navbar .active {
+    background-color: #2563eb; /* A nice slate blue, or choose your own hex code */
+    color: #ffffff !important; /* Forces text to remain readable on dark backgrounds */
+    border-radius: 0.375rem;    /* Optional: Rounds the corners slightly (Tailwind's rounded-md) */
+    padding-left: 0.5rem;      /* Optional: Adds space inside the background bubble */
+    padding-right: 0.5rem;
+}
+
+/* Light mode */
+.nav-active {
+    background-color: rgb(var(--color-neutral-200));
+    color: #0f172a !important; /* Dark text for readability */
+    border-radius: 0.375rem;    /* Smooth rounded corners */
+}
+
+/* Dark mode */
+.dark .nav-active {
+    background-color: rgb(var(--color-neutral-700));
+    color: #f8fafc !important; /* White text */
+}
