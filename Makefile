@@ -1,3 +1,6 @@
+build:
+	cd data/website && hugo --gc --cleanDestinationDir --minify
+
 up:
 	docker compose up -d
 
@@ -23,3 +26,4 @@ reload:
 
 test:
 	google-chrome ~/Software/website/data/website/index.html &
+

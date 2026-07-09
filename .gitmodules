@@ -1,0 +1,3 @@
+[submodule "data/website/themes/congo"]
+	path = data/website/themes/congo
+	url = git@github.com:jpanther/congo.git
