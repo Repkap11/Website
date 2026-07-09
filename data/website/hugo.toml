@@ -6,6 +6,7 @@ baseURL = "https://repkap11.com/"
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true
+summaryLength = 1
 
 [pagination]
   pagerSize = 10
