@@ -1,6 +1,6 @@
 .PHONY: build
 build:
-	hugo --gc --cleanDestinationDir --minify --baseURL="http://localhost:8080"
+	hugo --gc --cleanDestinationDir --minify
 
 .PHONY: server
 server:
@@ -9,5 +9,4 @@ server:
 
 .PHONY: deploy
 deploy:
-	hugo --gc --cleanDestinationDir --minify
 	rsync -avz --delete public/ paul@repkap11.com:~/website/public
