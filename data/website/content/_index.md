@@ -14,8 +14,8 @@ I have a <span id="felix_age"></span> year old cat named Felix. He's a good boy.
 
 I graduated from RIT in 2015 with a bachelors degree in Computer Engineering.
 
-Currently, I am a Senior Software Engineer at Six-15 Technologies in Rochester NY. Six-15 designs and manufactures head mounted display systems.
-My work is primarily in 2 areas: Android applications, and RTOS / bare-metal firmware. My work also involves customer integrations, dev-ops, and internal tools.
+Currently, I am a Senior Embedded Software Engineer at D3 Embedded in Rochester NY. D3 designs and manufactures embedded camera, radar, and robotics systems.
+My work is primarily in embedded Linux vision systems.
 
 <script>
 function calculate_age(dob) {
