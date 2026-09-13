@@ -5,6 +5,8 @@
 baseURL = "/"
 defaultContentLanguage = "en"
 
+favicon = "/favicon.ico"
+
 enableRobotsTXT = true
 summaryLength = 1
 
