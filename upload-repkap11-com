@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# Add user/pass to ~/.netrc
+# machine repkap11.com
+# login paul
+# password ...
+
+# Check if a file argument was provided
+if [ -z "$1" ]; then
+    echo "Usage: $0 <filename>"
+    exit 1
+fi
+
+FILE="$1"
+
+# Check if the file exists
+if [ ! -f "$FILE" ]; then
+    echo "Error: File '$FILE' not found."
+    exit 1
+fi
+
+# Extract just the filename (in case a full path like /path/to/image.jpg is passed)
+FILENAME=$(basename "$FILE")
+
+# Upload using curl
+curl -n -T "$FILE" "https://repkap11.com/upload/$FILENAME"
+
