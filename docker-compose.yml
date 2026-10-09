@@ -18,3 +18,12 @@ services:
       - ./data/certbot/conf:/etc/letsencrypt
       - ./data/certbot/www:/var/www/certbot
     entrypoint: "/bin/sh -c 'trap exit TERM; while true; do certbot --no-random-sleep-on-renew renew; sleep 12h & wait $${!}; done;'"
+
+  # WebSocket -> TCP bridge for the RepGame WASM client. Browsers can't open
+  # raw TCP, so nginx proxies wss://repkap11.com/repgame-ws upgrades here and
+  # websockify pipes the bytes to the RepGame server on 127.0.0.1:25566.
+  repgame-websockify:
+    image: python:3.12-alpine
+    restart: always
+    network_mode: "host"
+    command: "/bin/sh -c 'pip install --quiet websockify && websockify 25567 127.0.0.1:25566'"
